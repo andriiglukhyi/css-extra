@@ -2,3 +2,40 @@ header section {
   float: right;
   margin: 20px 20px;
 }
+
+main nav li {
+  display: inline-block;
+  margin-right: 30px;
+  float: left;
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  }
+main h1   {
+  float: left;
+}
+main h2 {
+  float: right;
+}
+main div {
+  margin:10px;
+ border-style-bottom:solid;
+}
+
+main section li {
+  dispaly:inline-block;
+  border-style: solid;
+  margin:10px;
+  width: 500px;
+  margin-top; 10px;
+}
+
+.list {
+  dispaly:inline-block;
+}
+
+.subborder h3{
+  float:right
+}
+.subborder img{
+  float:left;
+}
