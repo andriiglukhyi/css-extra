@@ -1,6 +1,16 @@
+* {outline: dotted 1px orange;
+}
+
 header section {
   float: right;
   margin: 20px 20px;
+}
+header section a {
+  margin: 10px;
+}
+main {
+  width: 1;
+  margin: 30px auto;
 }
 
 main nav li {
@@ -13,29 +23,38 @@ main nav li {
 main h1   {
   float: left;
 }
-main h2 {
+main a {
   float: right;
-}
-main div {
-  margin:10px;
- border-style-bottom:solid;
+  margin: 20px;
 }
 
-main section li {
-  dispaly:inline-block;
-  border-style: solid;
-  margin:10px;
-  width: 500px;
-  margin-top; 10px;
+.featured_content {
+  margin-bottom: 20px;
+  border-top: 3px solid #ddd;
+  clear: both;
+}
+.featured_content li {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-right: 15px;
+  float: left;
+  width: 450px;
+  border: solid #fff;
 }
 
-.list {
-  dispaly:inline-block;
+  .featured_content li  img {
+  float: left;
+  margin-right: 15px;
 }
 
-.subborder h3{
+.featured_content li p {
+  display:inline;
+  margin:15px;
+  position:
+
+}
+
+}
+.right{
   float:right
-}
-.subborder img{
-  float:left;
 }
